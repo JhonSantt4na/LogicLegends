@@ -1,0 +1,42 @@
+RoxoTexto = #D9C5A0
+BegeFundo = #393C40
+
+
+PretoInfinit = #010101
+
+
+Gradiente {
+    Cinza = #3A3F45
+    Bege = #6E675F
+    Preto = #080808
+}
+
+Colorido{
+    Azul = #0D0640
+    Cinza = #343A40
+    AmareloFraco = #D9C5A0
+    Bege = #A6937C
+    Preto = #0D0D0D
+}
+
+Brilho{
+    AmareloMedio = #BFAF8F
+    CinzaForte = #393C40
+    Preto = #0D0007
+}
+
+Suave{
+    CinzaMedio = #4F5459
+    RoxoForte = #1F0740
+    BegeFraco = #8C8070b
+}
+
+Profundo {
+   CinzaClaro = #595959
+}
+
+Escuro{
+    Preto = #0D0409
+    Amarelo = #A6A08F
+    begeFraco = #736B62
+}

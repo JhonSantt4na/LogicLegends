@@ -1,0 +1,6 @@
+@import url('./components/scroll_infinit.css');
+
+.about, .projects {
+    height: 750px;
+    width: 100%;  
+}
