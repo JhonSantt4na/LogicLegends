@@ -14,8 +14,8 @@
     animation: scrollInfinito 20s linear infinite;
 }
 .scroll__itens{
-    border: 2px solid #736B62;
-    background-color: #BFAF8F;
+    border: 2px solid #BFD1D9;
+    background-color: #03A63C;
     color: #010101;
     padding: 5px 15px;
     white-space: nowrap;
@@ -23,8 +23,8 @@
 }
 .scroll__itens:hover{
     background-color: #010101;
-    color: #BFAF8F;
-    border: 2px solid #BFAF8F;
+    color: #BFD1D9;
+    border: 2px solid #03A63C;
     cursor: cell;
 }
 
