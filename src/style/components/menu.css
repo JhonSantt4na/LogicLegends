@@ -1,0 +1,19 @@
+nav ul {
+    list-style-type: none;
+}
+nav ul li {
+    display: inline-block;
+    margin: 0 40px;
+}
+nav ul li a{
+    color: #f7f7f7;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    text-shadow: 0 0 15px #845ABF;
+}
+nav ul li a:hover {
+    color: #845ABF;
+}
