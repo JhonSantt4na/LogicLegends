@@ -26,7 +26,10 @@ footer .middle-footer{
     margin: 20px 0;
 }
 
-
+div{
+    border: #000;
+    background-color: #878;
+}
 footer .middle-footer a{
     color: white;
     margin: 0px 15px;
