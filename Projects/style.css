@@ -1,0 +1,139 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0a0a1a;
+    color: #ffffff;
+}
+main {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.projects {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.project {
+    background-color: #1a1a2e;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-basis: calc(33.333% - 1rem);
+    margin-bottom: 2rem;
+    position: relative;
+    transition: transform 0.3s ease;
+    height: 400px;
+}
+.project:hover {
+    transform: translateY(-10px);
+}
+.project img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.project-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(26, 26, 46, 0.8);
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    color: #8a2be2;
+}
+.project-info {
+    padding: 1rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(26, 26, 46, 0.9);
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+}
+.project:hover .project-info {
+    transform: translateY(0);
+}
+.project h3 {
+    margin-top: 0;
+    color: #8a2be2;
+}
+.project p {
+    font-size: 0.9rem;
+    color: #cccccc;
+}
+.language-icons {
+    display: flex;
+    margin-top: 0.5rem;
+    align-items: center;
+}
+.language-icons i {
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+    transition: color 0.3s ease;
+}
+.language-icons i:hover {
+    transform: scale(1.2);
+}
+.project-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.project-btn {
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}
+.code-btn {
+    background-color: #4a4a5a;
+    color: #ffffff;
+}
+.code-btn:hover {
+    background-color: #5a5a6a;
+}
+.website-btn {
+    background-color: #8a2be2;
+    color: #ffffff;
+}
+.website-btn:hover {
+    background-color: #9b59b6;
+}
+.see-more-btn {
+    display: block;
+    width: 200px;
+    margin: 2rem auto 0;
+    padding: 0.8rem 1.5rem;
+    background-color: #8a2be2;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+.see-more-btn:hover {
+    background-color: #9b59b6;
+}
+.caption {
+    font-size: 0.8rem;
+    color: #888;
+    text-align: right;
+    padding: 0.5rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+/* Technology-specific colors */
+.fa-python { color: #3776AB; }
+.fa-django { color: #092E20; }
+.fa-js-square { color: #F7DF1E; }
+.fa-react { color: #61DAFB; }
+.fa-sass { color: #CC6699; }
+.fa-figma { color: #F24E1E; }
+.fa-r-project { color: #276DC3; }
+.fa-chart-bar { color: #F9A03C; }
