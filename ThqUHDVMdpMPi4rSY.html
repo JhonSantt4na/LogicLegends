@@ -1,0 +1,251 @@
+<html><head><base href="https://santt4na.com/Great,%20I%20need%20the%20technologies%20to%20light%20up%20with%20their%20original%20colors%20and%20a%20mini%20caption%20with%20your%20name">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SANT4NA - Projetos</title>
+<style>
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0a0a1a;
+    color: #ffffff;
+}
+header {
+    background-color: #1a1a2e;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #8a2be2;
+}
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 1.5rem;
+    transition: color 0.3s ease;
+}
+nav a:hover {
+    color: #8a2be2;
+}
+.download-btn {
+    background-color: #8a2be2;
+    color: #ffffff;
+    padding: 0.7rem 1.2rem;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+.download-btn:hover {
+    background-color: #9b59b6;
+}
+main {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.projects {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.project {
+    background-color: #1a1a2e;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-basis: calc(33.333% - 1rem);
+    margin-bottom: 2rem;
+    position: relative;
+    transition: transform 0.3s ease;
+    height: 400px;
+}
+.project:hover {
+    transform: translateY(-10px);
+}
+.project img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.project-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(26, 26, 46, 0.8);
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    color: #8a2be2;
+}
+.project-info {
+    padding: 1rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(26, 26, 46, 0.9);
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+}
+.project:hover .project-info {
+    transform: translateY(0);
+}
+.project h3 {
+    margin-top: 0;
+    color: #8a2be2;
+}
+.project p {
+    font-size: 0.9rem;
+    color: #cccccc;
+}
+.language-icons {
+    display: flex;
+    margin-top: 0.5rem;
+    align-items: center;
+}
+.language-icons i {
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+    transition: color 0.3s ease;
+}
+.language-icons i:hover {
+    transform: scale(1.2);
+}
+.project-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.project-btn {
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}
+.code-btn {
+    background-color: #4a4a5a;
+    color: #ffffff;
+}
+.code-btn:hover {
+    background-color: #5a5a6a;
+}
+.website-btn {
+    background-color: #8a2be2;
+    color: #ffffff;
+}
+.website-btn:hover {
+    background-color: #9b59b6;
+}
+.see-more-btn {
+    display: block;
+    width: 200px;
+    margin: 2rem auto 0;
+    padding: 0.8rem 1.5rem;
+    background-color: #8a2be2;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+.see-more-btn:hover {
+    background-color: #9b59b6;
+}
+.caption {
+    font-size: 0.8rem;
+    color: #888;
+    text-align: right;
+    padding: 0.5rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+/* Technology-specific colors */
+.fa-python { color: #3776AB; }
+.fa-django { color: #092E20; }
+.fa-js-square { color: #F7DF1E; }
+.fa-react { color: #61DAFB; }
+.fa-sass { color: #CC6699; }
+.fa-figma { color: #F24E1E; }
+.fa-r-project { color: #276DC3; }
+.fa-chart-bar { color: #F9A03C; }
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">SANT4NA</div>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/sobre">Sobre</a>
+            <a href="/projetos">Projetos</a>
+            <a href="/contatos">Contatos</a>
+        </nav>
+        <a href="/download-cv" class="download-btn">Download CV</a>
+    </header>
+    <main>
+        <div class="projects">
+            <div class="project">
+                <div class="project-title">Sistema de Gerenciamento</div>
+                <img src="/images/coding-setup.jpg" alt="Configuração de desenvolvimento com múltiplos monitores" width="400" height="250">
+                <div class="project-info">
+                    <h3>Sistema de Gerenciamento</h3>
+                    <p>Sistema robusto para gerenciamento de dados e processos empresariais.</p>
+                    <div class="language-icons">
+                        <i class="fab fa-python" title="Python"></i>
+                        <i class="fab fa-django" title="Django"></i>
+                        <i class="fab fa-js-square" title="JavaScript"></i>
+                    </div>
+                    <div class="project-buttons">
+                        <a href="/projetos/sistema-gerenciamento/codigo" class="project-btn code-btn">Ver Código</a>
+                        <a href="/projetos/sistema-gerenciamento/demo" class="project-btn website-btn">Ver Demo</a>
+                    </div>
+                </div>
+                <div class="caption">Desenvolvido por SANT4NA</div>
+            </div>
+            <div class="project">
+                <div class="project-title">Design Visual</div>
+                <img src="/images/visual-design.jpg" alt="Interface de usuário futurista com elementos de design visual" width="400" height="250">
+                <div class="project-info">
+                    <h3>Design Visual</h3>
+                    <p>Criação de interfaces de usuário modernas e intuitivas para aplicações web.</p>
+                    <div class="language-icons">
+                        <i class="fab fa-react" title="React"></i>
+                        <i class="fab fa-sass" title="Sass"></i>
+                        <i class="fab fa-figma" title="Figma"></i>
+                    </div>
+                    <div class="project-buttons">
+                        <a href="/projetos/design-visual/codigo" class="project-btn code-btn">Ver Código</a>
+                        <a href="/projetos/design-visual/demo" class="project-btn website-btn">Ver Demo</a>
+                    </div>
+                </div>
+                <div class="caption">Desenvolvido por SANT4NA</div>
+            </div>
+            <div class="project">
+                <div class="project-title">Visualização de Dados</div>
+                <img src="/images/data-visualization.jpg" alt="Visualização de dados com hologramas e gráficos interativos" width="400" height="250">
+                <div class="project-info">
+                    <h3>Visualização de Dados</h3>
+                    <p>Ferramentas avançadas para análise e visualização de grandes conjuntos de dados.</p>
+                    <div class="language-icons">
+                        <i class="fab fa-r-project" title="R"></i>
+                        <i class="fab fa-python" title="Python"></i>
+                        <i class="fas fa-chart-bar" title="D3.js"></i>
+                    </div>
+                    <div class="project-buttons">
+                        <a href="/projetos/visualizacao-dados/codigo" class="project-btn code-btn">Ver Código</a>
+                        <a href="/projetos/visualizacao-dados/demo" class="project-btn website-btn">Ver Demo</a>
+                    </div>
+                </div>
+                <div class="caption">Desenvolvido por SANT4NA</div>
+            </div>
+        </div>
+        <a href="/projetos" class="see-more-btn">Ver Mais Projetos</a>
+    </main>
+</body>
+</html>
